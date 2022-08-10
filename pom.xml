@@ -12,6 +12,7 @@
         <module>roman-to-integer</module>
         <module>fizz-buzz</module>
         <module>richest-customer-wealth</module>
+        <module>number-of-steps-to-reduce-a-number-to-zero</module>
     </modules>
 
     <properties>

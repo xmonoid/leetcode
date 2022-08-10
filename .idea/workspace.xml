@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Richest Customer Wealth.&#10;Memory Usage: 41.9 MB, less than 90.15% of Java online submissions for Richest Customer Wealth.">
-      <change beforePath="$PROJECT_DIR$/richest-customer-wealth/src/main/java/ekosykh/training/richestcustomerwealth/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/richest-customer-wealth/src/main/java/ekosykh/training/richestcustomerwealth/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/number-of-steps-to-reduce-a-number-to-zero/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/number-of-steps-to-reduce-a-number-to-zero/src/main/java/ekosykh/training/numberofstepstoreduceanumbertozero/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/number-of-steps-to-reduce-a-number-to-zero/src/test/java/ekosykh/training/numberofstepstoreduceanumbertozero/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="package-info" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -52,11 +58,12 @@
       <recent name="ekosykh.training.romantointeger" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ekosykh.training.numberofstepstoreduceanumbertozero" />
       <recent name="ekosykh.training.richestcustomerwealth" />
       <recent name="ekosykh.training.fizzbuzz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.maximumWealthTest">
+  <component name="RunManager" selected="JUnit.SolutionTest.numberOfStepsTest">
     <configuration name="SolutionTest.fizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fizz-buzz" />
       <extension name="coverage">
@@ -89,6 +96,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest.numberOfStepsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="number-of-steps-to-reduce-a-number-to-zero" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ekosykh.training.numberofstepstoreduceanumbertozero.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ekosykh.training.numberofstepstoreduceanumbertozero" />
+      <option name="MAIN_CLASS_NAME" value="ekosykh.training.numberofstepstoreduceanumbertozero.SolutionTest" />
+      <option name="METHOD_NAME" value="numberOfStepsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest.romanToIntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="roman-to-integer" />
       <extension name="coverage">
@@ -107,6 +130,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.numberOfStepsTest" />
         <item itemvalue="JUnit.SolutionTest.maximumWealthTest" />
         <item itemvalue="JUnit.SolutionTest.fizzBuzzTest" />
         <item itemvalue="JUnit.SolutionTest.romanToIntTest" />
@@ -164,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660141097238</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Richest Customer Wealth.&#10;Memory Usage: 41.9 MB, less than 90.15% of Java online submissions for Richest Customer Wealth.">
+      <created>1660141640451</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660141640451</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
