@@ -15,6 +15,10 @@ public class Solution {
      *     <li>{@code 1 <= m, n <= 50}</li>
      *     <li>{@code 1 <= accounts[i][j] <= 100}</li>
      * </ul>
+     * <b>Constraints:</b>
+     * <ul>
+     *     <li>{@code 0 <= num <= 10^6}</li>
+     * </ul>
      * @see <a href="https://leetcode.com/problems/richest-customer-wealth/">1672. Richest Customer Wealth</a>
      */
     public static int maximumWealth(int[][] accounts) {

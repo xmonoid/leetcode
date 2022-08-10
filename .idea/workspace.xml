@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="Updated JUnit-Jupiter to 5.9.0">
-      <change afterPath="$PROJECT_DIR$/richest-customer-wealth/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/richest-customer-wealth/src/main/java/ekosykh/training/richestcustomerwealth/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/richest-customer-wealth/src/test/java/ekosykh/training/richestcustomerwealth/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Richest Customer Wealth.&#10;Memory Usage: 41.9 MB, less than 90.15% of Java online submissions for Richest Customer Wealth.">
+      <change beforePath="$PROJECT_DIR$/richest-customer-wealth/src/main/java/ekosykh/training/richestcustomerwealth/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/richest-customer-wealth/src/main/java/ekosykh/training/richestcustomerwealth/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660139244383</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Richest Customer Wealth.&#10;Memory Usage: 41.9 MB, less than 90.15% of Java online submissions for Richest Customer Wealth.">
+      <created>1660141097238</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660141097238</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +183,7 @@
     <MESSAGE value="Success&#10;&#10;Runtime: 4 ms, faster than 98.28% of Java online submissions for Roman to Integer.&#10;Memory Usage: 42.4 MB, less than 96.81% of Java online submissions for Roman to Integer." />
     <MESSAGE value="Success&#10;&#10;Runtime: 1 ms, faster than 99.98% of Java online submissions for Fizz Buzz.&#10;Memory Usage: 43.5 MB, less than 87.91% of Java online submissions for Fizz Buzz." />
     <MESSAGE value="Updated JUnit-Jupiter to 5.9.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated JUnit-Jupiter to 5.9.0" />
+    <MESSAGE value="Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Richest Customer Wealth.&#10;Memory Usage: 41.9 MB, less than 90.15% of Java online submissions for Richest Customer Wealth." />
+    <option name="LAST_COMMIT_MESSAGE" value="Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Richest Customer Wealth.&#10;Memory Usage: 41.9 MB, less than 90.15% of Java online submissions for Richest Customer Wealth." />
   </component>
 </project>
