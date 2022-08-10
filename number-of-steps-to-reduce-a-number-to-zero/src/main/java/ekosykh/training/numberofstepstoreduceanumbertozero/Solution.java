@@ -18,11 +18,9 @@ public class Solution {
     public static int numberOfSteps(int num) {
         if (num == 0) return 0;
         int result = -1;
-        for (;num > 0; num >>= 1) {
-            if (num % 2 == 0) {
+        for (;num > 0; num >>= 1, result++) {
+            if (num % 2 != 0) {
                 result++;
-            } else {
-                result+=2;
             }
         }
         return result;

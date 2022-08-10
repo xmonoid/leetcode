@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Richest Customer Wealth.&#10;Memory Usage: 41.9 MB, less than 90.15% of Java online submissions for Richest Customer Wealth.">
-      <change afterPath="$PROJECT_DIR$/number-of-steps-to-reduce-a-number-to-zero/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/number-of-steps-to-reduce-a-number-to-zero/src/main/java/ekosykh/training/numberofstepstoreduceanumbertozero/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/number-of-steps-to-reduce-a-number-to-zero/src/test/java/ekosykh/training/numberofstepstoreduceanumbertozero/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="1342. Number of Steps to Reduce a Number to Zero&#10;First Implementation&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Number of Steps to Reduce a Number to Zero.&#10;Memory Usage: 41.1 MB, less than 44.49% of Java online submissions for Number of Steps to Reduce a Number to Zero.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number-of-steps-to-reduce-a-number-to-zero/src/main/java/ekosykh/training/numberofstepstoreduceanumbertozero/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/number-of-steps-to-reduce-a-number-to-zero/src/main/java/ekosykh/training/numberofstepstoreduceanumbertozero/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660141640451</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1342. Number of Steps to Reduce a Number to Zero&#10;First Implementation&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Number of Steps to Reduce a Number to Zero.&#10;Memory Usage: 41.1 MB, less than 44.49% of Java online submissions for Number of Steps to Reduce a Number to Zero.">
+      <created>1660160327984</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660160327984</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +218,7 @@
     <MESSAGE value="Success&#10;&#10;Runtime: 1 ms, faster than 99.98% of Java online submissions for Fizz Buzz.&#10;Memory Usage: 43.5 MB, less than 87.91% of Java online submissions for Fizz Buzz." />
     <MESSAGE value="Updated JUnit-Jupiter to 5.9.0" />
     <MESSAGE value="Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Richest Customer Wealth.&#10;Memory Usage: 41.9 MB, less than 90.15% of Java online submissions for Richest Customer Wealth." />
-    <option name="LAST_COMMIT_MESSAGE" value="Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Richest Customer Wealth.&#10;Memory Usage: 41.9 MB, less than 90.15% of Java online submissions for Richest Customer Wealth." />
+    <MESSAGE value="1342. Number of Steps to Reduce a Number to Zero&#10;First Implementation&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Number of Steps to Reduce a Number to Zero.&#10;Memory Usage: 41.1 MB, less than 44.49% of Java online submissions for Number of Steps to Reduce a Number to Zero." />
+    <option name="LAST_COMMIT_MESSAGE" value="1342. Number of Steps to Reduce a Number to Zero&#10;First Implementation&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Number of Steps to Reduce a Number to Zero.&#10;Memory Usage: 41.1 MB, less than 44.49% of Java online submissions for Number of Steps to Reduce a Number to Zero." />
   </component>
 </project>
