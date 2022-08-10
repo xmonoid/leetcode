@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="Success&#10;&#10;Runtime: 4 ms, faster than 98.28% of Java online submissions for Roman to Integer.&#10;Memory Usage: 42.4 MB, less than 96.81% of Java online submissions for Roman to Integer.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fizz-buzz/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fizz-buzz/src/main/java/ekosykh/training/fizzbuzz/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fizz-buzz/src/test/java/ekosykh/training/fizzbuzz/SolutionTest.java" afterDir="false" />
+    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="Updated JUnit-Jupiter to 5.9.0">
+      <change afterPath="$PROJECT_DIR$/richest-customer-wealth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/richest-customer-wealth/src/main/java/ekosykh/training/richestcustomerwealth/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/richest-customer-wealth/src/test/java/ekosykh/training/richestcustomerwealth/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -58,10 +57,11 @@
       <recent name="ekosykh.training.romantointeger" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ekosykh.training.richestcustomerwealth" />
       <recent name="ekosykh.training.fizzbuzz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.fizzBuzzTest">
+  <component name="RunManager" selected="JUnit.SolutionTest.maximumWealthTest">
     <configuration name="SolutionTest.fizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fizz-buzz" />
       <extension name="coverage">
@@ -73,6 +73,22 @@
       <option name="PACKAGE_NAME" value="ekosykh.training.fizzbuzz" />
       <option name="MAIN_CLASS_NAME" value="ekosykh.training.fizzbuzz.SolutionTest" />
       <option name="METHOD_NAME" value="fizzBuzzTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.maximumWealthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="richest-customer-wealth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ekosykh.training.richestcustomerwealth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ekosykh.training.richestcustomerwealth" />
+      <option name="MAIN_CLASS_NAME" value="ekosykh.training.richestcustomerwealth.SolutionTest" />
+      <option name="METHOD_NAME" value="maximumWealthTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,6 +112,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.maximumWealthTest" />
         <item itemvalue="JUnit.SolutionTest.fizzBuzzTest" />
         <item itemvalue="JUnit.SolutionTest.romanToIntTest" />
       </list>
@@ -131,7 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660132818901</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Success&#10;&#10;Runtime: 1 ms, faster than 99.98% of Java online submissions for Fizz Buzz.&#10;Memory Usage: 43.5 MB, less than 87.91% of Java online submissions for Fizz Buzz.">
+      <created>1660135787912</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660135787912</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated JUnit-Jupiter to 5.9.0">
+      <created>1660139244383</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660139244383</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +179,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Success&#10;&#10;Runtime: 4 ms, faster than 98.28% of Java online submissions for Roman to Integer.&#10;Memory Usage: 42.4 MB, less than 96.81% of Java online submissions for Roman to Integer." />
-    <option name="LAST_COMMIT_MESSAGE" value="Success&#10;&#10;Runtime: 4 ms, faster than 98.28% of Java online submissions for Roman to Integer.&#10;Memory Usage: 42.4 MB, less than 96.81% of Java online submissions for Roman to Integer." />
+    <MESSAGE value="Success&#10;&#10;Runtime: 1 ms, faster than 99.98% of Java online submissions for Fizz Buzz.&#10;Memory Usage: 43.5 MB, less than 87.91% of Java online submissions for Fizz Buzz." />
+    <MESSAGE value="Updated JUnit-Jupiter to 5.9.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated JUnit-Jupiter to 5.9.0" />
   </component>
 </project>

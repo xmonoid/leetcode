@@ -11,6 +11,7 @@
     <modules>
         <module>roman-to-integer</module>
         <module>fizz-buzz</module>
+        <module>richest-customer-wealth</module>
     </modules>
 
     <properties>
