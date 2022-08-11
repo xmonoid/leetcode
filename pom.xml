@@ -13,6 +13,7 @@
         <module>fizz-buzz</module>
         <module>richest-customer-wealth</module>
         <module>number-of-steps-to-reduce-a-number-to-zero</module>
+        <module>ransom-note</module>
     </modules>
 
     <properties>
