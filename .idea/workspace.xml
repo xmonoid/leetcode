@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="1342. Number of Steps to Reduce a Number to Zero&#10;Implementation better a bit&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Number of Steps to Reduce a Number to Zero.&#10;Memory Usage: 40.5 MB, less than 77.77% of Java online submissions for Number of Steps to Reduce a Number to Zero.">
-      <change afterPath="$PROJECT_DIR$/ransom-note/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ransom-note/src/main/java/ekosykh/training/ransomnote/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ransom-note/src/test/java/ekosykh/training/ransomnote/SolutionTest.java" afterDir="false" />
+    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="383. Ransom Note&#10;Success&#10;&#10;Runtime: 2 ms, faster than 99.19% of Java online submissions for Ransom Note.&#10;Memory Usage: 45.8 MB, less than 70.15% of Java online submissions for Ransom Note.">
+      <change afterPath="$PROJECT_DIR$/middle-of-the-linked-list/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle-of-the-linked-list/src/main/java/ekosykh/training/middleofthelinkedlist/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle-of-the-linked-list/src/test/java/ekosykh/training/middleofthelinkedlist/ListNodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle-of-the-linked-list/src/test/java/ekosykh/training/middleofthelinkedlist/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -58,13 +59,30 @@
       <recent name="ekosykh.training.romantointeger" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ekosykh.training.middleofthelinkedlist" />
       <recent name="ekosykh.training.ransomnote" />
       <recent name="ekosykh.training.numberofstepstoreduceanumbertozero" />
       <recent name="ekosykh.training.richestcustomerwealth" />
       <recent name="ekosykh.training.fizzbuzz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.canConstructTest">
+  <component name="RunManager" selected="JUnit.SolutionTest.middleNodeTest">
+    <configuration name="ListNodeTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="middle-of-the-linked-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ekosykh.training.middleofthelinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ekosykh.training.middleofthelinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="ekosykh.training.middleofthelinkedlist.ListNodeTest" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest.canConstructTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ransom-note" />
       <extension name="coverage">
@@ -76,22 +94,6 @@
       <option name="PACKAGE_NAME" value="ekosykh.training.ransomnote" />
       <option name="MAIN_CLASS_NAME" value="ekosykh.training.ransomnote.SolutionTest" />
       <option name="METHOD_NAME" value="canConstructTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.fizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fizz-buzz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ekosykh.training.fizzbuzz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ekosykh.training.fizzbuzz" />
-      <option name="MAIN_CLASS_NAME" value="ekosykh.training.fizzbuzz.SolutionTest" />
-      <option name="METHOD_NAME" value="fizzBuzzTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,6 +115,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest.middleNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="middle-of-the-linked-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ekosykh.training.middleofthelinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ekosykh.training.middleofthelinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="ekosykh.training.middleofthelinkedlist.SolutionTest" />
+      <option name="METHOD_NAME" value="middleNodeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest.numberOfStepsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="number-of-steps-to-reduce-a-number-to-zero" />
       <extension name="coverage">
@@ -129,29 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.romanToIntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="roman-to-integer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ekosykh.training.romantointeger.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ekosykh.training.romantointeger" />
-      <option name="MAIN_CLASS_NAME" value="ekosykh.training.romantointeger.SolutionTest" />
-      <option name="METHOD_NAME" value="romanToIntTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.middleNodeTest" />
+        <item itemvalue="JUnit.ListNodeTest.testEquals" />
         <item itemvalue="JUnit.SolutionTest.canConstructTest" />
         <item itemvalue="JUnit.SolutionTest.numberOfStepsTest" />
         <item itemvalue="JUnit.SolutionTest.maximumWealthTest" />
-        <item itemvalue="JUnit.SolutionTest.fizzBuzzTest" />
-        <item itemvalue="JUnit.SolutionTest.romanToIntTest" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660161390175</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="383. Ransom Note&#10;Success&#10;&#10;Runtime: 2 ms, faster than 99.19% of Java online submissions for Ransom Note.&#10;Memory Usage: 45.8 MB, less than 70.15% of Java online submissions for Ransom Note.">
+      <created>1660211246472</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660211246472</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +258,7 @@
     <MESSAGE value="Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Richest Customer Wealth.&#10;Memory Usage: 41.9 MB, less than 90.15% of Java online submissions for Richest Customer Wealth." />
     <MESSAGE value="1342. Number of Steps to Reduce a Number to Zero&#10;First Implementation&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Number of Steps to Reduce a Number to Zero.&#10;Memory Usage: 41.1 MB, less than 44.49% of Java online submissions for Number of Steps to Reduce a Number to Zero." />
     <MESSAGE value="1342. Number of Steps to Reduce a Number to Zero&#10;Implementation better a bit&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Number of Steps to Reduce a Number to Zero.&#10;Memory Usage: 40.5 MB, less than 77.77% of Java online submissions for Number of Steps to Reduce a Number to Zero." />
-    <option name="LAST_COMMIT_MESSAGE" value="1342. Number of Steps to Reduce a Number to Zero&#10;Implementation better a bit&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Number of Steps to Reduce a Number to Zero.&#10;Memory Usage: 40.5 MB, less than 77.77% of Java online submissions for Number of Steps to Reduce a Number to Zero." />
+    <MESSAGE value="383. Ransom Note&#10;Success&#10;&#10;Runtime: 2 ms, faster than 99.19% of Java online submissions for Ransom Note.&#10;Memory Usage: 45.8 MB, less than 70.15% of Java online submissions for Ransom Note." />
+    <option name="LAST_COMMIT_MESSAGE" value="383. Ransom Note&#10;Success&#10;&#10;Runtime: 2 ms, faster than 99.19% of Java online submissions for Ransom Note.&#10;Memory Usage: 45.8 MB, less than 70.15% of Java online submissions for Ransom Note." />
   </component>
 </project>
