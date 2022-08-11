@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="383. Ransom Note&#10;Success&#10;&#10;Runtime: 2 ms, faster than 99.19% of Java online submissions for Ransom Note.&#10;Memory Usage: 45.8 MB, less than 70.15% of Java online submissions for Ransom Note.">
-      <change afterPath="$PROJECT_DIR$/middle-of-the-linked-list/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle-of-the-linked-list/src/main/java/ekosykh/training/middleofthelinkedlist/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle-of-the-linked-list/src/test/java/ekosykh/training/middleofthelinkedlist/ListNodeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle-of-the-linked-list/src/test/java/ekosykh/training/middleofthelinkedlist/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="876. Middle of the Linked List&#10;First solution&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 42.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle-of-the-linked-list/src/main/java/ekosykh/training/middleofthelinkedlist/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle-of-the-linked-list/src/main/java/ekosykh/training/middleofthelinkedlist/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660211246472</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="876. Middle of the Linked List&#10;First solution&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 42.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List.">
+      <created>1660219802090</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660219802090</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +261,7 @@
     <MESSAGE value="1342. Number of Steps to Reduce a Number to Zero&#10;First Implementation&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Number of Steps to Reduce a Number to Zero.&#10;Memory Usage: 41.1 MB, less than 44.49% of Java online submissions for Number of Steps to Reduce a Number to Zero." />
     <MESSAGE value="1342. Number of Steps to Reduce a Number to Zero&#10;Implementation better a bit&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Number of Steps to Reduce a Number to Zero.&#10;Memory Usage: 40.5 MB, less than 77.77% of Java online submissions for Number of Steps to Reduce a Number to Zero." />
     <MESSAGE value="383. Ransom Note&#10;Success&#10;&#10;Runtime: 2 ms, faster than 99.19% of Java online submissions for Ransom Note.&#10;Memory Usage: 45.8 MB, less than 70.15% of Java online submissions for Ransom Note." />
-    <option name="LAST_COMMIT_MESSAGE" value="383. Ransom Note&#10;Success&#10;&#10;Runtime: 2 ms, faster than 99.19% of Java online submissions for Ransom Note.&#10;Memory Usage: 45.8 MB, less than 70.15% of Java online submissions for Ransom Note." />
+    <MESSAGE value="876. Middle of the Linked List&#10;First solution&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 42.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List." />
+    <option name="LAST_COMMIT_MESSAGE" value="876. Middle of the Linked List&#10;First solution&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 42.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List." />
   </component>
 </project>

@@ -23,16 +23,19 @@ class Solution {
      * </ul>
      */
     public static ListNode middleNode(ListNode head) {
-        var middle = head;
-        var second = true;
-        while (head != null) {
-            head = head.next;
-            second = !second;
-            if (second) {
-                middle = middle.next;
-            }
+        var count = 0;
+        var current = head;
+        while (current != null) {
+            current = current.next;
+            count++;
         }
-        return middle;
+        current = head;
+        count /= 2;
+        while (count-- > 0) {
+            current = current.next;
+        }
+
+        return current;
     }
 }
 
