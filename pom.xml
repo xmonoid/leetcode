@@ -15,6 +15,7 @@
         <module>number-of-steps-to-reduce-a-number-to-zero</module>
         <module>ransom-note</module>
         <module>middle-of-the-linked-list</module>
+        <module>palindrome-linked-list</module>
     </modules>
 
     <properties>

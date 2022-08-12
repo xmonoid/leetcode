@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="876. Middle of the Linked List&#10;First solution&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 42.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List.">
+    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="876. Middle of the Linked List&#10;Second solution: suddenly a little better in memory consumption&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 41.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List.">
+      <change afterPath="$PROJECT_DIR$/palindrome-linked-list/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/palindrome-linked-list/src/main/java/ekosykh/training/palindromelinkedlist/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/palindrome-linked-list/src/test/java/ekosykh/training/palindromelinkedlist/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middle-of-the-linked-list/src/main/java/ekosykh/training/middleofthelinkedlist/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/middle-of-the-linked-list/src/main/java/ekosykh/training/middleofthelinkedlist/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,14 +58,14 @@
       <recent name="ekosykh.training.romantointeger" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ekosykh.training.palindromelinkedlist" />
       <recent name="ekosykh.training.middleofthelinkedlist" />
       <recent name="ekosykh.training.ransomnote" />
       <recent name="ekosykh.training.numberofstepstoreduceanumbertozero" />
       <recent name="ekosykh.training.richestcustomerwealth" />
-      <recent name="ekosykh.training.fizzbuzz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.middleNodeTest">
+  <component name="RunManager" selected="JUnit.SolutionTest.isPalindromeTest">
     <configuration name="ListNodeTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="middle-of-the-linked-list" />
       <extension name="coverage">
@@ -94,17 +98,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.maximumWealthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="richest-customer-wealth" />
+    <configuration name="SolutionTest.isPalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="palindrome-linked-list" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ekosykh.training.richestcustomerwealth.*" />
+          <option name="PATTERN" value="ekosykh.training.palindromelinkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ekosykh.training.richestcustomerwealth" />
-      <option name="MAIN_CLASS_NAME" value="ekosykh.training.richestcustomerwealth.SolutionTest" />
-      <option name="METHOD_NAME" value="maximumWealthTest" />
+      <option name="PACKAGE_NAME" value="ekosykh.training.palindromelinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="ekosykh.training.palindromelinkedlist.SolutionTest" />
+      <option name="METHOD_NAME" value="isPalindromeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.isPalindromeTest" />
         <item itemvalue="JUnit.SolutionTest.middleNodeTest" />
         <item itemvalue="JUnit.ListNodeTest.testEquals" />
         <item itemvalue="JUnit.SolutionTest.canConstructTest" />
         <item itemvalue="JUnit.SolutionTest.numberOfStepsTest" />
-        <item itemvalue="JUnit.SolutionTest.maximumWealthTest" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660219802090</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="876. Middle of the Linked List&#10;Second solution: suddenly a little better in memory consumption&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 41.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List.">
+      <created>1660221424766</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660221424766</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +273,7 @@
     <MESSAGE value="1342. Number of Steps to Reduce a Number to Zero&#10;Implementation better a bit&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Number of Steps to Reduce a Number to Zero.&#10;Memory Usage: 40.5 MB, less than 77.77% of Java online submissions for Number of Steps to Reduce a Number to Zero." />
     <MESSAGE value="383. Ransom Note&#10;Success&#10;&#10;Runtime: 2 ms, faster than 99.19% of Java online submissions for Ransom Note.&#10;Memory Usage: 45.8 MB, less than 70.15% of Java online submissions for Ransom Note." />
     <MESSAGE value="876. Middle of the Linked List&#10;First solution&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 42.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List." />
-    <option name="LAST_COMMIT_MESSAGE" value="876. Middle of the Linked List&#10;First solution&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 42.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List." />
+    <MESSAGE value="876. Middle of the Linked List&#10;Second solution: suddenly a little better in memory consumption&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 41.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List." />
+    <option name="LAST_COMMIT_MESSAGE" value="876. Middle of the Linked List&#10;Second solution: suddenly a little better in memory consumption&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 41.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List." />
   </component>
 </project>
