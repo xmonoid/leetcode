@@ -18,6 +18,7 @@
         <module>palindrome-linked-list</module>
         <module>the-k-weakest-rows-in-a-matrix</module>
         <module>two-sum</module>
+        <module>palindrome-number</module>
     </modules>
 
     <properties>
