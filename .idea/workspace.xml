@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="1. Two Sum&#10;First implementation, O(n^2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 80 ms, faster than 30.50% of Java online submissions for Two Sum.&#10;Memory Usage: 44.6 MB, less than 77.35% of Java online submissions for Two Sum.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/two-sum/src/main/java/ekosykh/training/twosum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/two-sum/src/main/java/ekosykh/training/twosum/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -265,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660398553801</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1. Two Sum&#10;First implementation, O(n^2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 80 ms, faster than 30.50% of Java online submissions for Two Sum.&#10;Memory Usage: 44.6 MB, less than 77.35% of Java online submissions for Two Sum.">
+      <created>1660399078691</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1660399078691</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

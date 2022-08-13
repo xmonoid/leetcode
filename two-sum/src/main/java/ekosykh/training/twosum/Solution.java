@@ -1,5 +1,7 @@
 package ekosykh.training.twosum;
 
+import java.util.HashMap;
+
 public class Solution {
     /**
      * Given an array of integers <code>nums</code> and an integer <code>target</code>,
@@ -21,12 +23,14 @@ public class Solution {
      * @see <a href="https://leetcode.com/problems/two-sum/">1. Two Sum</a>
      */
     public static int[] twoSum(int[] nums, int target) {
+        final var map = new HashMap<Integer, Integer>(nums.length, 1);
         for (int i = 0; i < nums.length; i++) {
-            for (int j = i+1; j < nums.length; j++) {
-                if (nums[i] + nums[j] == target) {
-                    return new int[] {i, j};
-                }
+            final int complement = target - nums[i];
+            final var j = map.get(complement);
+            if (j != null) {
+                return new int[] {i, j};
             }
+            map.put(nums[i], i);
         }
         return new int[0];
     }
