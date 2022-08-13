@@ -16,14 +16,18 @@ public class Solution {
      * <b>Follow up:</b> Could you solve it without converting the integer to a string?
      */
     public static boolean isPalindrome(int x) {
-        if (x < 0) return false;
-        String y = Integer.toString(x);
-        int n = y.length();
-        for (int i = 0; i < n; i++) {
-            if (y.codePointAt(i) != y.codePointAt(n-i-1)) {
-                return false;
-            }
+        if (x == 0) return true;
+        if (x < 0 || x % 10 == 0) return false;
+
+        int reverse = 0;
+        do {
+            reverse = reverse * 10 + x % 10;
+            x /= 10;
+        } while (x > reverse);
+        if (x == reverse)
+            return true;
+        else {
+            return x == reverse/10;
         }
-        return true;
     }
 }
