@@ -16,6 +16,7 @@
         <module>ransom-note</module>
         <module>middle-of-the-linked-list</module>
         <module>palindrome-linked-list</module>
+        <module>the-k-weakest-rows-in-a-matrix</module>
     </modules>
 
     <properties>

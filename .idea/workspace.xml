@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="876. Middle of the Linked List&#10;Second solution: suddenly a little better in memory consumption&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 41.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List.">
-      <change afterPath="$PROJECT_DIR$/palindrome-linked-list/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palindrome-linked-list/src/main/java/ekosykh/training/palindromelinkedlist/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/palindrome-linked-list/src/test/java/ekosykh/training/palindromelinkedlist/SolutionTest.java" afterDir="false" />
+    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="234. Palindrome Linked List&#10;Second solution: first half is summed up with plus, second half is summed up with minus&#10;Success&#10;&#10;Runtime: 5 ms, faster than 90.42% of Java online submissions for Palindrome Linked List.&#10;Memory Usage: 96.4 MB, less than 83.36% of Java online submissions for Palindrome Linked List.">
+      <change afterPath="$PROJECT_DIR$/the-k-weakest-rows-in-a-matrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the-k-weakest-rows-in-a-matrix/src/main/java/ekosykh/training/thekweakestrowsinamatrix/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/the-k-weakest-rows-in-a-matrix/src/test/java/ekosykh/training/thekweakestrowsinamatrix/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -58,14 +58,14 @@
       <recent name="ekosykh.training.romantointeger" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ekosykh.training.thekweakestrowsinamatrix" />
       <recent name="ekosykh.training.palindromelinkedlist" />
       <recent name="ekosykh.training.middleofthelinkedlist" />
       <recent name="ekosykh.training.ransomnote" />
       <recent name="ekosykh.training.numberofstepstoreduceanumbertozero" />
-      <recent name="ekosykh.training.richestcustomerwealth" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.isPalindromeTest">
+  <component name="RunManager" selected="JUnit.SolutionTest.kWeakestRowsTest">
     <configuration name="ListNodeTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="middle-of-the-linked-list" />
       <extension name="coverage">
@@ -114,6 +114,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest.kWeakestRowsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="the-k-weakest-rows-in-a-matrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ekosykh.training.thekweakestrowsinamatrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ekosykh.training.thekweakestrowsinamatrix" />
+      <option name="MAIN_CLASS_NAME" value="ekosykh.training.thekweakestrowsinamatrix.SolutionTest" />
+      <option name="METHOD_NAME" value="kWeakestRowsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest.middleNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="middle-of-the-linked-list" />
       <extension name="coverage">
@@ -130,29 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.numberOfStepsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="number-of-steps-to-reduce-a-number-to-zero" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ekosykh.training.numberofstepstoreduceanumbertozero.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ekosykh.training.numberofstepstoreduceanumbertozero" />
-      <option name="MAIN_CLASS_NAME" value="ekosykh.training.numberofstepstoreduceanumbertozero.SolutionTest" />
-      <option name="METHOD_NAME" value="numberOfStepsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.kWeakestRowsTest" />
         <item itemvalue="JUnit.SolutionTest.isPalindromeTest" />
         <item itemvalue="JUnit.SolutionTest.middleNodeTest" />
         <item itemvalue="JUnit.ListNodeTest.testEquals" />
         <item itemvalue="JUnit.SolutionTest.canConstructTest" />
-        <item itemvalue="JUnit.SolutionTest.numberOfStepsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660221424766</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="234. Palindrome Linked List&#10;Second solution: first half is summed up with plus, second half is summed up with minus&#10;Success&#10;&#10;Runtime: 5 ms, faster than 90.42% of Java online submissions for Palindrome Linked List.&#10;Memory Usage: 96.4 MB, less than 83.36% of Java online submissions for Palindrome Linked List.">
+      <created>1660318306627</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660318306627</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,6 +281,7 @@
     <MESSAGE value="383. Ransom Note&#10;Success&#10;&#10;Runtime: 2 ms, faster than 99.19% of Java online submissions for Ransom Note.&#10;Memory Usage: 45.8 MB, less than 70.15% of Java online submissions for Ransom Note." />
     <MESSAGE value="876. Middle of the Linked List&#10;First solution&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 42.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List." />
     <MESSAGE value="876. Middle of the Linked List&#10;Second solution: suddenly a little better in memory consumption&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 41.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List." />
-    <option name="LAST_COMMIT_MESSAGE" value="876. Middle of the Linked List&#10;Second solution: suddenly a little better in memory consumption&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 41.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List." />
+    <MESSAGE value="234. Palindrome Linked List&#10;Second solution: first half is summed up with plus, second half is summed up with minus&#10;Success&#10;&#10;Runtime: 5 ms, faster than 90.42% of Java online submissions for Palindrome Linked List.&#10;Memory Usage: 96.4 MB, less than 83.36% of Java online submissions for Palindrome Linked List." />
+    <option name="LAST_COMMIT_MESSAGE" value="234. Palindrome Linked List&#10;Second solution: first half is summed up with plus, second half is summed up with minus&#10;Success&#10;&#10;Runtime: 5 ms, faster than 90.42% of Java online submissions for Palindrome Linked List.&#10;Memory Usage: 96.4 MB, less than 83.36% of Java online submissions for Palindrome Linked List." />
   </component>
 </project>
