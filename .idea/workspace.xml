@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="234. Palindrome Linked List&#10;Second solution: first half is summed up with plus, second half is summed up with minus&#10;Success&#10;&#10;Runtime: 5 ms, faster than 90.42% of Java online submissions for Palindrome Linked List.&#10;Memory Usage: 96.4 MB, less than 83.36% of Java online submissions for Palindrome Linked List.">
-      <change afterPath="$PROJECT_DIR$/the-k-weakest-rows-in-a-matrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the-k-weakest-rows-in-a-matrix/src/main/java/ekosykh/training/thekweakestrowsinamatrix/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the-k-weakest-rows-in-a-matrix/src/test/java/ekosykh/training/thekweakestrowsinamatrix/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="1. Two Sum&#10;First implementation, O(n^2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 80 ms, faster than 30.50% of Java online submissions for Two Sum.&#10;Memory Usage: 44.6 MB, less than 77.35% of Java online submissions for Two Sum.">
+      <change beforePath="$PROJECT_DIR$/two-sum/src/main/java/ekosykh/training/twosum/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/two-sum/src/main/java/ekosykh/training/twosum/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +53,14 @@
       <recent name="ekosykh.training.romantointeger" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ekosykh.training.twosum" />
       <recent name="ekosykh.training.thekweakestrowsinamatrix" />
       <recent name="ekosykh.training.palindromelinkedlist" />
       <recent name="ekosykh.training.middleofthelinkedlist" />
       <recent name="ekosykh.training.ransomnote" />
-      <recent name="ekosykh.training.numberofstepstoreduceanumbertozero" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.kWeakestRowsTest">
+  <component name="RunManager" selected="JUnit.SolutionTest.twoSumTest">
     <configuration name="ListNodeTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="middle-of-the-linked-list" />
       <extension name="coverage">
@@ -77,22 +72,6 @@
       <option name="PACKAGE_NAME" value="ekosykh.training.middleofthelinkedlist" />
       <option name="MAIN_CLASS_NAME" value="ekosykh.training.middleofthelinkedlist.ListNodeTest" />
       <option name="METHOD_NAME" value="testEquals" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.canConstructTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ransom-note" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ekosykh.training.ransomnote.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ekosykh.training.ransomnote" />
-      <option name="MAIN_CLASS_NAME" value="ekosykh.training.ransomnote.SolutionTest" />
-      <option name="METHOD_NAME" value="canConstructTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,13 +125,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest.twoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="two-sum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ekosykh.training.twosum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ekosykh.training.twosum" />
+      <option name="MAIN_CLASS_NAME" value="ekosykh.training.twosum.SolutionTest" />
+      <option name="METHOD_NAME" value="twoSumTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.twoSumTest" />
         <item itemvalue="JUnit.SolutionTest.kWeakestRowsTest" />
         <item itemvalue="JUnit.SolutionTest.isPalindromeTest" />
         <item itemvalue="JUnit.SolutionTest.middleNodeTest" />
         <item itemvalue="JUnit.ListNodeTest.testEquals" />
-        <item itemvalue="JUnit.SolutionTest.canConstructTest" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +251,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660318306627</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="1337. The K Weakest Rows in a Matrix&#10;&#10;Success&#10;&#10;Runtime: 3 ms, faster than 61.14% of Java online submissions for The K Weakest Rows in a Matrix.&#10;Memory Usage: 48.3 MB, less than 80.16% of Java online submissions for The K Weakest Rows in a Matrix.">
+      <created>1660392356531</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660392356531</updated>
+    </task>
+    <task id="LOCAL-00015" summary="1. Two Sum&#10;First implementation, O(n^2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 80 ms, faster than 30.50% of Java online submissions for Two Sum.&#10;Memory Usage: 44.6 MB, less than 77.35% of Java online submissions for Two Sum.">
+      <created>1660398553801</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660398553801</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +291,8 @@
     <MESSAGE value="876. Middle of the Linked List&#10;First solution&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 42.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List." />
     <MESSAGE value="876. Middle of the Linked List&#10;Second solution: suddenly a little better in memory consumption&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Middle of the Linked List.&#10;Memory Usage: 41.4 MB, less than 6.18% of Java online submissions for Middle of the Linked List." />
     <MESSAGE value="234. Palindrome Linked List&#10;Second solution: first half is summed up with plus, second half is summed up with minus&#10;Success&#10;&#10;Runtime: 5 ms, faster than 90.42% of Java online submissions for Palindrome Linked List.&#10;Memory Usage: 96.4 MB, less than 83.36% of Java online submissions for Palindrome Linked List." />
-    <option name="LAST_COMMIT_MESSAGE" value="234. Palindrome Linked List&#10;Second solution: first half is summed up with plus, second half is summed up with minus&#10;Success&#10;&#10;Runtime: 5 ms, faster than 90.42% of Java online submissions for Palindrome Linked List.&#10;Memory Usage: 96.4 MB, less than 83.36% of Java online submissions for Palindrome Linked List." />
+    <MESSAGE value="1337. The K Weakest Rows in a Matrix&#10;&#10;Success&#10;&#10;Runtime: 3 ms, faster than 61.14% of Java online submissions for The K Weakest Rows in a Matrix.&#10;Memory Usage: 48.3 MB, less than 80.16% of Java online submissions for The K Weakest Rows in a Matrix." />
+    <MESSAGE value="1. Two Sum&#10;First implementation, O(n^2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 80 ms, faster than 30.50% of Java online submissions for Two Sum.&#10;Memory Usage: 44.6 MB, less than 77.35% of Java online submissions for Two Sum." />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Two Sum&#10;First implementation, O(n^2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 80 ms, faster than 30.50% of Java online submissions for Two Sum.&#10;Memory Usage: 44.6 MB, less than 77.35% of Java online submissions for Two Sum." />
   </component>
 </project>
