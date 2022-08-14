@@ -20,6 +20,7 @@
         <module>two-sum</module>
         <module>palindrome-number</module>
         <module>longest-common-prefix</module>
+        <module>maximum-subarray</module>
     </modules>
 
     <properties>
