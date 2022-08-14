@@ -19,6 +19,7 @@
         <module>the-k-weakest-rows-in-a-matrix</module>
         <module>two-sum</module>
         <module>palindrome-number</module>
+        <module>longest-common-prefix</module>
     </modules>
 
     <properties>
