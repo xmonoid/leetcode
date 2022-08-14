@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="9. Palindrome Number&#10;Third implementation: without converting to a string, reversing an integer to the half&#10;&#10;Success&#10;&#10;Runtime: 11 ms, faster than 87.52% of Java online submissions for Palindrome Number.&#10;Memory Usage: 44.5 MB, less than 64.09% of Java online submissions for Palindrome Number.">
-      <change afterPath="$PROJECT_DIR$/longest-common-prefix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/longest-common-prefix/src/main/java/ekosykh/training/longestcommonprefix/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/longest-common-prefix/src/test/java/ekosykh/training/longestcommonprefix/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="14. Longest Common Prefix&#10;Second implementation: sequentially reduce the shortest word until the prefix found&#10;Success&#10;&#10;Runtime: 1 ms, faster than 89.34% of Java online submissions for Longest Common Prefix.&#10;Memory Usage: 42.6 MB, less than 29.81% of Java online submissions for Longest Common Prefix.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/longest-common-prefix/src/main/java/ekosykh/training/longestcommonprefix/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/longest-common-prefix/src/main/java/ekosykh/training/longestcommonprefix/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +294,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660413289876</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="14. Longest Common Prefix&#10;&#10;Success&#10;&#10;Runtime: 2 ms, faster than 50.47% of Java online submissions for Longest Common Prefix.&#10;Memory Usage: 41.5 MB, less than 83.53% of Java online submissions for Longest Common Prefix.">
+      <created>1660473810812</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1660473810812</updated>
+    </task>
+    <task id="LOCAL-00021" summary="14. Longest Common Prefix&#10;Second implementation: sequentially reduce the shortest word until the prefix found&#10;Success&#10;&#10;Runtime: 1 ms, faster than 89.34% of Java online submissions for Longest Common Prefix.&#10;Memory Usage: 42.6 MB, less than 29.81% of Java online submissions for Longest Common Prefix.">
+      <created>1660477941030</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1660477941030</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -329,6 +339,8 @@
     <MESSAGE value="1. Two Sum&#10;Second implementation, O(n) time complexity, using HashMap to find a complement&#10;&#10;Success&#10;&#10;Runtime: 2 ms, faster than 94.58% of Java online submissions for Two Sum.&#10;Memory Usage: 46.5 MB, less than 12.15% of Java online submissions for Two Sum." />
     <MESSAGE value="9. Palindrome Number&#10;First implementation&#10;&#10;Success&#10;&#10;Runtime: 10 ms, faster than 91.02% of Java online submissions for Palindrome Number.&#10;Memory Usage: 41.9 MB, less than 89.38% of Java online submissions for Palindrome Number." />
     <MESSAGE value="9. Palindrome Number&#10;Third implementation: without converting to a string, reversing an integer to the half&#10;&#10;Success&#10;&#10;Runtime: 11 ms, faster than 87.52% of Java online submissions for Palindrome Number.&#10;Memory Usage: 44.5 MB, less than 64.09% of Java online submissions for Palindrome Number." />
-    <option name="LAST_COMMIT_MESSAGE" value="9. Palindrome Number&#10;Third implementation: without converting to a string, reversing an integer to the half&#10;&#10;Success&#10;&#10;Runtime: 11 ms, faster than 87.52% of Java online submissions for Palindrome Number.&#10;Memory Usage: 44.5 MB, less than 64.09% of Java online submissions for Palindrome Number." />
+    <MESSAGE value="14. Longest Common Prefix&#10;&#10;Success&#10;&#10;Runtime: 2 ms, faster than 50.47% of Java online submissions for Longest Common Prefix.&#10;Memory Usage: 41.5 MB, less than 83.53% of Java online submissions for Longest Common Prefix." />
+    <MESSAGE value="14. Longest Common Prefix&#10;Second implementation: sequentially reduce the shortest word until the prefix found&#10;Success&#10;&#10;Runtime: 1 ms, faster than 89.34% of Java online submissions for Longest Common Prefix.&#10;Memory Usage: 42.6 MB, less than 29.81% of Java online submissions for Longest Common Prefix." />
+    <option name="LAST_COMMIT_MESSAGE" value="14. Longest Common Prefix&#10;Second implementation: sequentially reduce the shortest word until the prefix found&#10;Success&#10;&#10;Runtime: 1 ms, faster than 89.34% of Java online submissions for Longest Common Prefix.&#10;Memory Usage: 42.6 MB, less than 29.81% of Java online submissions for Longest Common Prefix." />
   </component>
 </project>

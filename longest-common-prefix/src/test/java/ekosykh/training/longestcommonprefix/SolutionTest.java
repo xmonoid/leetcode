@@ -19,5 +19,7 @@ class SolutionTest {
         assertEquals("", longestCommonPrefix(input));
         input = new String[] {"w"};
         assertEquals("w", longestCommonPrefix(input));
+        input = new String[] {"flower","flow","flowa","flowx","flight", "fight"};
+        assertEquals("f", longestCommonPrefix(input));
     }
 }
