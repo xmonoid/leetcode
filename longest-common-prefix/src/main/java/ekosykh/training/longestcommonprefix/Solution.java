@@ -15,13 +15,16 @@ public class Solution {
      * @see <a href="https://leetcode.com/problems/longest-common-prefix/">14. Longest Common Prefix</a>
      */
     public static String longestCommonPrefix(String[] strs) {
-        String prefix = shortestWord(strs);
-        for (String str : strs) {
-            while (!prefix.equals(str.substring(0, prefix.length()))) {
-                prefix = prefix.substring(0, prefix.length() - 1);
-            }
+        int low = 1;
+        int high = shortestWord(strs).length();
+        while (low <= high) {
+            final int middle = (low + high) / 2;
+            if (isCommonPrefix(strs, middle))
+                low = middle + 1;
+            else
+                high = middle - 1;
         }
-        return prefix;
+        return strs[0].substring(0, (low + high) / 2);
     }
     private static String shortestWord(String[] strs) {
         String shortest = strs[0];
@@ -32,4 +35,12 @@ public class Solution {
         }
         return shortest;
     }
+    private static boolean isCommonPrefix(String[] strs, int len){
+        String str1 = strs[0].substring(0,len);
+        for (int i = 1; i < strs.length; i++)
+            if (!strs[i].startsWith(str1))
+                return false;
+        return true;
+    }
+
 }
