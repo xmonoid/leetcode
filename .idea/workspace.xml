@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="53. Maximum Subarray&#10;&#10;Naive implementation&#10;&#10;Time Limit Exceeded&#10;&#10;200 / 209 test cases passed.">
+      <change afterPath="$PROJECT_DIR$/maximum-subarray/src/main/java/ekosykh/training/maximumsubarray/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maximum-subarray/src/test/java/ekosykh/training/maximumsubarray/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maximum-subarray/src/main/java/ekosykh/training/maximumsubarray/Subarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/maximum-subarray/src/main/java/ekosykh/training/maximumsubarray/Subarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maximum-subarray/src/test/java/ekosykh/training/maximumsubarray/SubarrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/maximum-subarray/src/test/java/ekosykh/training/maximumsubarray/SubarrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maximum-subarray/src/main/java/ekosykh/training/maximumsubarray/Subarray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maximum-subarray/src/test/java/ekosykh/training/maximumsubarray/SubarrayTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,22 @@
       <recent name="ekosykh.training.thekweakestrowsinamatrix" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SubarrayTest.maxSubArrayTest">
+  <component name="RunManager" selected="JUnit.SolutionTest">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maximum-subarray" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ekosykh.training.maximumsubarray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ekosykh.training.maximumsubarray" />
+      <option name="MAIN_CLASS_NAME" value="ekosykh.training.maximumsubarray.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest.isPalindromeTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="palindrome-number" />
       <extension name="coverage">
@@ -74,22 +91,6 @@
       <option name="PACKAGE_NAME" value="ekosykh.training.palindromenumber" />
       <option name="MAIN_CLASS_NAME" value="ekosykh.training.palindromenumber.SolutionTest" />
       <option name="METHOD_NAME" value="isPalindromeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.kWeakestRowsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="the-k-weakest-rows-in-a-matrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ekosykh.training.thekweakestrowsinamatrix.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ekosykh.training.thekweakestrowsinamatrix" />
-      <option name="MAIN_CLASS_NAME" value="ekosykh.training.thekweakestrowsinamatrix.SolutionTest" />
-      <option name="METHOD_NAME" value="kWeakestRowsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,23 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.twoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="two-sum" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ekosykh.training.twosum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ekosykh.training.twosum" />
-      <option name="MAIN_CLASS_NAME" value="ekosykh.training.twosum.SolutionTest" />
-      <option name="METHOD_NAME" value="twoSumTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubarrayTest.maxSubArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.maxSubArray8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maximum-subarray" />
       <extension name="coverage">
         <pattern>
@@ -136,7 +121,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ekosykh.training.maximumsubarray" />
-      <option name="MAIN_CLASS_NAME" value="ekosykh.training.maximumsubarray.SubarrayTest" />
+      <option name="MAIN_CLASS_NAME" value="ekosykh.training.maximumsubarray.SolutionTest" />
+      <option name="METHOD_NAME" value="maxSubArray8" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.maxSubArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maximum-subarray" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ekosykh.training.maximumsubarray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ekosykh.training.maximumsubarray" />
+      <option name="MAIN_CLASS_NAME" value="ekosykh.training.maximumsubarray.SolutionTest" />
       <option name="METHOD_NAME" value="maxSubArrayTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -145,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SubarrayTest.maxSubArrayTest" />
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.SolutionTest.maxSubArray8" />
+        <item itemvalue="JUnit.SolutionTest.maxSubArrayTest" />
         <item itemvalue="JUnit.SolutionTest.longestCommonPrefixTest" />
         <item itemvalue="JUnit.SolutionTest.isPalindromeTest (1)" />
-        <item itemvalue="JUnit.SolutionTest.twoSumTest" />
-        <item itemvalue="JUnit.SolutionTest.kWeakestRowsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660505730881</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="53. Maximum Subarray&#10;&#10;Naive implementation&#10;&#10;Time Limit Exceeded&#10;&#10;200 / 209 test cases passed.">
+      <created>1660553555966</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1660553555966</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,5 +374,13 @@
     <MESSAGE value="14. Longest Common Prefix&#10;Third implementation: dichotomy (based on a solution from Leetcode)&#10;Success&#10;&#10;Runtime: 1 ms, faster than 89.34% of Java online submissions for Longest Common Prefix.&#10;Memory Usage: 42 MB, less than 65.20% of Java online submissions for Longest Common Prefix." />
     <MESSAGE value="53. Maximum Subarray&#10;&#10;Naive implementation&#10;&#10;Time Limit Exceeded&#10;&#10;200 / 209 test cases passed." />
     <option name="LAST_COMMIT_MESSAGE" value="53. Maximum Subarray&#10;&#10;Naive implementation&#10;&#10;Time Limit Exceeded&#10;&#10;200 / 209 test cases passed." />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="nums[left]" language="JAVA" />
+        <watch expression="nums[right]" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
