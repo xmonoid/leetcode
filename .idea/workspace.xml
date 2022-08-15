@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="14. Longest Common Prefix&#10;Third implementation: dichotomy (based on a solution from Leetcode)&#10;Success&#10;&#10;Runtime: 1 ms, faster than 89.34% of Java online submissions for Longest Common Prefix.&#10;Memory Usage: 42 MB, less than 65.20% of Java online submissions for Longest Common Prefix.">
-      <change afterPath="$PROJECT_DIR$/maximum-subarray/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maximum-subarray/src/main/java/ekosykh/training/maximumsubarray/Subarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maximum-subarray/src/test/java/ekosykh/training/maximumsubarray/SubarrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="53. Maximum Subarray&#10;&#10;Naive implementation&#10;&#10;Time Limit Exceeded&#10;&#10;200 / 209 test cases passed.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maximum-subarray/src/main/java/ekosykh/training/maximumsubarray/Subarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/maximum-subarray/src/main/java/ekosykh/training/maximumsubarray/Subarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maximum-subarray/src/test/java/ekosykh/training/maximumsubarray/SubarrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/maximum-subarray/src/test/java/ekosykh/training/maximumsubarray/SubarrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660481231279</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="53. Maximum Subarray&#10;&#10;Naive implementation&#10;&#10;Time Limit Exceeded&#10;&#10;200 / 209 test cases passed.">
+      <created>1660505730881</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1660505730881</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,6 +364,7 @@
     <MESSAGE value="14. Longest Common Prefix&#10;&#10;Success&#10;&#10;Runtime: 2 ms, faster than 50.47% of Java online submissions for Longest Common Prefix.&#10;Memory Usage: 41.5 MB, less than 83.53% of Java online submissions for Longest Common Prefix." />
     <MESSAGE value="14. Longest Common Prefix&#10;Second implementation: sequentially reduce the shortest word until the prefix found&#10;Success&#10;&#10;Runtime: 1 ms, faster than 89.34% of Java online submissions for Longest Common Prefix.&#10;Memory Usage: 42.6 MB, less than 29.81% of Java online submissions for Longest Common Prefix." />
     <MESSAGE value="14. Longest Common Prefix&#10;Third implementation: dichotomy (based on a solution from Leetcode)&#10;Success&#10;&#10;Runtime: 1 ms, faster than 89.34% of Java online submissions for Longest Common Prefix.&#10;Memory Usage: 42 MB, less than 65.20% of Java online submissions for Longest Common Prefix." />
-    <option name="LAST_COMMIT_MESSAGE" value="14. Longest Common Prefix&#10;Third implementation: dichotomy (based on a solution from Leetcode)&#10;Success&#10;&#10;Runtime: 1 ms, faster than 89.34% of Java online submissions for Longest Common Prefix.&#10;Memory Usage: 42 MB, less than 65.20% of Java online submissions for Longest Common Prefix." />
+    <MESSAGE value="53. Maximum Subarray&#10;&#10;Naive implementation&#10;&#10;Time Limit Exceeded&#10;&#10;200 / 209 test cases passed." />
+    <option name="LAST_COMMIT_MESSAGE" value="53. Maximum Subarray&#10;&#10;Naive implementation&#10;&#10;Time Limit Exceeded&#10;&#10;200 / 209 test cases passed." />
   </component>
 </project>

@@ -18,8 +18,16 @@ public class Subarray {
      */
     public static int maxSubArray(int[] nums) {
         int max = Integer.MIN_VALUE;
-        for (int i = 1; i <= nums.length; i++) {
+        for (int num : nums) {
+            if (num > max) {
+                max = num;
+            }
+        }
+        for (int i = 2; i <= nums.length; i++) {
             for (int j = 0; j <= nums.length-i; j++) {
+                if (i+j > nums.length || nums[j] < 0 || nums[j+i-1] < 0) {
+                    continue;
+                }
                 int current = sumSubArray(nums, j, j + i);
                 if (current > max) {
                     max = current;
