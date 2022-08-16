@@ -23,6 +23,7 @@
         <module>maximum-subarray</module>
         <module>search-a-2d-matrix</module>
         <module>excel-sheet-column-title</module>
+        <module>missing-number</module>
     </modules>
 
     <properties>

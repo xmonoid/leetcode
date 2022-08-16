@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="74. Search a 2D Matrix&#10;&#10;O(log m + log n)&#10;&#10;Success&#10;&#10;Runtime: 1 ms, faster than 39.44% of Java online submissions for Search a 2D Matrix.&#10;Memory Usage: 42.3 MB, less than 82.03% of Java online submissions for Search a 2D Matrix.">
-      <change afterPath="$PROJECT_DIR$/excel-sheet-column-title/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-sheet-column-title/src/main/java/ekosykh/training/excelsheetcolumntitle/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/excel-sheet-column-title/src/test/java/ekosykh/training/excelsheetcolumntitle/SolutionTest.java" afterDir="false" />
+    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="74. Search a 2D Matrix&#10;&#10;O(length(number))&#10;&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Excel Sheet Column Title.&#10;Memory Usage: 39.5 MB, less than 94.43% of Java online submissions for Excel Sheet Column Title.">
+      <change afterPath="$PROJECT_DIR$/missing-number/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/missing-number/src/main/java/ekosykh/training/missingnumber/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/missing-number/src/test/java/ekosykh/training/missingnumber/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -58,14 +58,14 @@
       <recent name="ekosykh.training.romantointeger" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ekosykh.training.missingnumber" />
       <recent name="ekosykh.training.excelsheetcolumntitle" />
       <recent name="ekosykh.training.searcha2dmatrix" />
       <recent name="ekosykh.training.maximumsubarray" />
       <recent name="ekosykh.training.longestcommonprefix" />
-      <recent name="ekosykh.training.palindromenumber" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest (2)">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration name="SolutionTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="excel-sheet-column-title" />
       <extension name="coverage">
@@ -76,6 +76,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="ekosykh.training.excelsheetcolumntitle" />
       <option name="MAIN_CLASS_NAME" value="ekosykh.training.excelsheetcolumntitle.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="missing-number" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ekosykh.training.missingnumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ekosykh.training.missingnumber" />
+      <option name="MAIN_CLASS_NAME" value="ekosykh.training.missingnumber.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,22 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.convertToTitle2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="excel-sheet-column-title" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ekosykh.training.excelsheetcolumntitle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ekosykh.training.excelsheetcolumntitle" />
-      <option name="MAIN_CLASS_NAME" value="ekosykh.training.excelsheetcolumntitle.SolutionTest" />
-      <option name="METHOD_NAME" value="convertToTitle2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SolutionTest.convertToTitle20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="excel-sheet-column-title" />
       <extension name="coverage">
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.SolutionTest (2)" />
         <item itemvalue="JUnit.SolutionTest.convertToTitle10" />
         <item itemvalue="JUnit.SolutionTest.convertToTitle20" />
         <item itemvalue="JUnit.SolutionTest.convertToTitle00" />
-        <item itemvalue="JUnit.SolutionTest.convertToTitle2" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660653506864</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="74. Search a 2D Matrix&#10;&#10;O(length(number))&#10;&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Excel Sheet Column Title.&#10;Memory Usage: 39.5 MB, less than 94.43% of Java online submissions for Excel Sheet Column Title.">
+      <created>1660658512519</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1660658512519</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,6 +404,7 @@
     <MESSAGE value="53. Maximum Subarray&#10;&#10;O(n) with recursion: 2*n more precisely&#10;&#10;Success&#10;&#10;Runtime: 5 ms, faster than 6.00% of Java online submissions for Maximum Subarray.&#10;Memory Usage: 74.1 MB, less than 43.37% of Java online submissions for Maximum Subarray." />
     <MESSAGE value="53. Maximum Subarray&#10;&#10;O(n) with recursion: now going through the array only once&#10;&#10;Success&#10;&#10;Runtime: 3 ms, faster than 25.85% of Java online submissions for Maximum Subarray.&#10;Memory Usage: 74 MB, less than 45.45% of Java online submissions for Maximum Subarray." />
     <MESSAGE value="74. Search a 2D Matrix&#10;&#10;O(log m + log n)&#10;&#10;Success&#10;&#10;Runtime: 1 ms, faster than 39.44% of Java online submissions for Search a 2D Matrix.&#10;Memory Usage: 42.3 MB, less than 82.03% of Java online submissions for Search a 2D Matrix." />
-    <option name="LAST_COMMIT_MESSAGE" value="74. Search a 2D Matrix&#10;&#10;O(log m + log n)&#10;&#10;Success&#10;&#10;Runtime: 1 ms, faster than 39.44% of Java online submissions for Search a 2D Matrix.&#10;Memory Usage: 42.3 MB, less than 82.03% of Java online submissions for Search a 2D Matrix." />
+    <MESSAGE value="74. Search a 2D Matrix&#10;&#10;O(length(number))&#10;&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Excel Sheet Column Title.&#10;Memory Usage: 39.5 MB, less than 94.43% of Java online submissions for Excel Sheet Column Title." />
+    <option name="LAST_COMMIT_MESSAGE" value="74. Search a 2D Matrix&#10;&#10;O(length(number))&#10;&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Excel Sheet Column Title.&#10;Memory Usage: 39.5 MB, less than 94.43% of Java online submissions for Excel Sheet Column Title." />
   </component>
 </project>
