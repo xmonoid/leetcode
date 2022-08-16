@@ -17,24 +17,20 @@ public class Solution {
      * try coding another solution using the <b>divide and conquer</b> approach, which is more subtle.
      */
     public int maxSubArray(int[] nums) {
-        max = Integer.MIN_VALUE;
-        for (int num : nums) {
-            if (num > max) {
-                max = num;
-            }
-        }
-        int sum = sumSubArrayLeft(nums, 0, nums.length-1);
-        return Math.max(max, sum);
+        return sumSubArrayLeft(nums, 0, nums.length-1);
     }
 
-    private int max;
+    private int max = Integer.MIN_VALUE;
 
     private int sumSubArrayLeft(int[] nums, int left, int right) {
-        while (left < right && nums[left] <= 0) {
+        while (left <= right && nums[left] <= 0) {
+            if (nums[left] > max) {
+                max = nums[left];
+            }
             left++;
         }
-        if (left == right) {
-            return nums[left];
+        if (left > right) {
+            return max;
         }
         while (right > left && nums[right] <= 0) {
             right--;

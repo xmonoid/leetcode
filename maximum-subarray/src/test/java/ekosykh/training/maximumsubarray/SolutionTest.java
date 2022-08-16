@@ -75,4 +75,10 @@ class SolutionTest {
         var input = new int[] {-1, -2};
         assertEquals(-1, new Solution().maxSubArray(input)); // [-1]
     }
+
+    @Test
+    void maxSubArray10() {
+        var input = new int[] {-2, -1};
+        assertEquals(-1, new Solution().maxSubArray(input)); // [-1]
+    }
 }
