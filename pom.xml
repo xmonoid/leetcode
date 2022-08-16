@@ -21,6 +21,7 @@
         <module>palindrome-number</module>
         <module>longest-common-prefix</module>
         <module>maximum-subarray</module>
+        <module>search-a-2d-matrix</module>
     </modules>
 
     <properties>

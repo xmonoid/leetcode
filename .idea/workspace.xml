@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="53. Maximum Subarray&#10;&#10;O(n) with recursion: 2*n more precisely&#10;&#10;Success&#10;&#10;Runtime: 5 ms, faster than 6.00% of Java online submissions for Maximum Subarray.&#10;Memory Usage: 74.1 MB, less than 43.37% of Java online submissions for Maximum Subarray.">
+    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="53. Maximum Subarray&#10;&#10;O(n) with recursion: now going through the array only once&#10;&#10;Success&#10;&#10;Runtime: 3 ms, faster than 25.85% of Java online submissions for Maximum Subarray.&#10;Memory Usage: 74 MB, less than 45.45% of Java online submissions for Maximum Subarray.">
+      <change afterPath="$PROJECT_DIR$/search-a-2d-matrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-a-2d-matrix/src/main/java/ekosykh/training/searcha2dmatrix/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search-a-2d-matrix/src/test/java/ekosykh/training/searcha2dmatrix/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maximum-subarray/src/main/java/ekosykh/training/maximumsubarray/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/maximum-subarray/src/main/java/ekosykh/training/maximumsubarray/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maximum-subarray/src/test/java/ekosykh/training/maximumsubarray/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/maximum-subarray/src/test/java/ekosykh/training/maximumsubarray/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,14 +58,29 @@
       <recent name="ekosykh.training.romantointeger" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ekosykh.training.searcha2dmatrix" />
       <recent name="ekosykh.training.maximumsubarray" />
       <recent name="ekosykh.training.longestcommonprefix" />
       <recent name="ekosykh.training.palindromenumber" />
       <recent name="ekosykh.training.twosum" />
-      <recent name="ekosykh.training.thekweakestrowsinamatrix" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="search-a-2d-matrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ekosykh.training.searcha2dmatrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ekosykh.training.searcha2dmatrix" />
+      <option name="MAIN_CLASS_NAME" value="ekosykh.training.searcha2dmatrix.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maximum-subarray" />
       <extension name="coverage">
@@ -94,22 +112,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.maxSubArray8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maximum-subarray" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ekosykh.training.maximumsubarray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ekosykh.training.maximumsubarray" />
-      <option name="MAIN_CLASS_NAME" value="ekosykh.training.maximumsubarray.SolutionTest" />
-      <option name="METHOD_NAME" value="maxSubArray8" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SolutionTest.maxSubArray9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="maximum-subarray" />
       <extension name="coverage">
@@ -126,17 +128,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.maxSubArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maximum-subarray" />
+    <configuration name="SolutionTest.searchMatrix2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="search-a-2d-matrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ekosykh.training.maximumsubarray.*" />
+          <option name="PATTERN" value="ekosykh.training.searcha2dmatrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ekosykh.training.maximumsubarray" />
-      <option name="MAIN_CLASS_NAME" value="ekosykh.training.maximumsubarray.SolutionTest" />
-      <option name="METHOD_NAME" value="maxSubArrayTest" />
+      <option name="PACKAGE_NAME" value="ekosykh.training.searcha2dmatrix" />
+      <option name="MAIN_CLASS_NAME" value="ekosykh.training.searcha2dmatrix.SolutionTest" />
+      <option name="METHOD_NAME" value="searchMatrix2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (1)" />
+        <item itemvalue="JUnit.SolutionTest.searchMatrix2" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.SolutionTest.maxSubArray10" />
         <item itemvalue="JUnit.SolutionTest.maxSubArray9" />
-        <item itemvalue="JUnit.SolutionTest.maxSubArray8" />
-        <item itemvalue="JUnit.SolutionTest.maxSubArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660578600019</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="53. Maximum Subarray&#10;&#10;O(n) with recursion: now going through the array only once&#10;&#10;Success&#10;&#10;Runtime: 3 ms, faster than 25.85% of Java online submissions for Maximum Subarray.&#10;Memory Usage: 74 MB, less than 45.45% of Java online submissions for Maximum Subarray.">
+      <created>1660637946321</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1660637946321</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,14 +388,18 @@
     <MESSAGE value="14. Longest Common Prefix&#10;Third implementation: dichotomy (based on a solution from Leetcode)&#10;Success&#10;&#10;Runtime: 1 ms, faster than 89.34% of Java online submissions for Longest Common Prefix.&#10;Memory Usage: 42 MB, less than 65.20% of Java online submissions for Longest Common Prefix." />
     <MESSAGE value="53. Maximum Subarray&#10;&#10;Naive implementation&#10;&#10;Time Limit Exceeded&#10;&#10;200 / 209 test cases passed." />
     <MESSAGE value="53. Maximum Subarray&#10;&#10;O(n) with recursion: 2*n more precisely&#10;&#10;Success&#10;&#10;Runtime: 5 ms, faster than 6.00% of Java online submissions for Maximum Subarray.&#10;Memory Usage: 74.1 MB, less than 43.37% of Java online submissions for Maximum Subarray." />
-    <option name="LAST_COMMIT_MESSAGE" value="53. Maximum Subarray&#10;&#10;O(n) with recursion: 2*n more precisely&#10;&#10;Success&#10;&#10;Runtime: 5 ms, faster than 6.00% of Java online submissions for Maximum Subarray.&#10;Memory Usage: 74.1 MB, less than 43.37% of Java online submissions for Maximum Subarray." />
+    <MESSAGE value="53. Maximum Subarray&#10;&#10;O(n) with recursion: now going through the array only once&#10;&#10;Success&#10;&#10;Runtime: 3 ms, faster than 25.85% of Java online submissions for Maximum Subarray.&#10;Memory Usage: 74 MB, less than 45.45% of Java online submissions for Maximum Subarray." />
+    <option name="LAST_COMMIT_MESSAGE" value="53. Maximum Subarray&#10;&#10;O(n) with recursion: now going through the array only once&#10;&#10;Success&#10;&#10;Runtime: 3 ms, faster than 25.85% of Java online submissions for Maximum Subarray.&#10;Memory Usage: 74 MB, less than 45.45% of Java online submissions for Maximum Subarray." />
   </component>
   <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="nums[left]" language="JAVA" />
-        <watch expression="nums[right]" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/search-a-2d-matrix/src/main/java/ekosykh/training/searcha2dmatrix/Solution.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
