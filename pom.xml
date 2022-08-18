@@ -24,6 +24,7 @@
         <module>search-a-2d-matrix</module>
         <module>excel-sheet-column-title</module>
         <module>missing-number</module>
+        <module>valid-parentheses</module>
     </modules>
 
     <properties>
