@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="268. Missing Number&#10;&#10;O(1) space complexity and O(n) time complexity&#10;&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Missing Number.&#10;Memory Usage: 50.8 MB, less than 75.13% of Java online submissions for Missing Number.">
-      <change afterPath="$PROJECT_DIR$/valid-parentheses/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/valid-parentheses/src/main/java/validparentheses/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/valid-parentheses/src/test/java/validparentheses/SolutionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="21. Merge Two Sorted Lists&#10;&#10;O(1) space complexity and O(len1 + len2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 1 ms, faster than 80.10% of Java online submissions for Merge Two Sorted Lists.&#10;Memory Usage: 41.9 MB, less than 89.93% of Java online submissions for Merge Two Sorted Lists.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge-two-sorted-lists/src/main/java/mergetwosortedlists/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/merge-two-sorted-lists/src/main/java/mergetwosortedlists/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,86 +54,88 @@
       <recent name="ekosykh.training.romantointeger" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="mergetwosortedlists" />
       <recent name="validparentheses" />
       <recent name="ekosykh.training.missingnumber" />
       <recent name="ekosykh.training.excelsheetcolumntitle" />
       <recent name="ekosykh.training.searcha2dmatrix" />
-      <recent name="ekosykh.training.maximumsubarray" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest (1)">
-    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="valid-parentheses" />
+  <component name="RunManager" selected="JUnit.SolutionTest (3)">
+    <configuration name="SolutionTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="merge-two-sorted-lists" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="validparentheses.*" />
+          <option name="PATTERN" value="mergetwosortedlists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="validparentheses" />
-      <option name="MAIN_CLASS_NAME" value="validparentheses.SolutionTest" />
+      <option name="PACKAGE_NAME" value="mergetwosortedlists" />
+      <option name="MAIN_CLASS_NAME" value="mergetwosortedlists.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="excel-sheet-column-title" />
+    <configuration name="SolutionTest.mergeTwoLists120" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="merge-two-sorted-lists" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ekosykh.training.excelsheetcolumntitle.*" />
+          <option name="PATTERN" value="mergetwosortedlists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ekosykh.training.excelsheetcolumntitle" />
-      <option name="MAIN_CLASS_NAME" value="ekosykh.training.excelsheetcolumntitle.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="missing-number" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ekosykh.training.missingnumber.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ekosykh.training.missingnumber" />
-      <option name="MAIN_CLASS_NAME" value="ekosykh.training.missingnumber.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.convertToTitle10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="excel-sheet-column-title" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ekosykh.training.excelsheetcolumntitle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ekosykh.training.excelsheetcolumntitle" />
-      <option name="MAIN_CLASS_NAME" value="ekosykh.training.excelsheetcolumntitle.SolutionTest" />
-      <option name="METHOD_NAME" value="convertToTitle10" />
+      <option name="PACKAGE_NAME" value="mergetwosortedlists" />
+      <option name="MAIN_CLASS_NAME" value="mergetwosortedlists.SolutionTest" />
+      <option name="METHOD_NAME" value="mergeTwoLists120" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.isValid0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="valid-parentheses" />
+    <configuration name="SolutionTest.mergeTwoLists140" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="merge-two-sorted-lists" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="validparentheses.*" />
+          <option name="PATTERN" value="mergetwosortedlists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="validparentheses" />
-      <option name="MAIN_CLASS_NAME" value="validparentheses.SolutionTest" />
-      <option name="METHOD_NAME" value="isValid0" />
+      <option name="PACKAGE_NAME" value="mergetwosortedlists" />
+      <option name="MAIN_CLASS_NAME" value="mergetwosortedlists.SolutionTest" />
+      <option name="METHOD_NAME" value="mergeTwoLists140" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.mergeTwoLists60" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="merge-two-sorted-lists" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mergetwosortedlists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mergetwosortedlists" />
+      <option name="MAIN_CLASS_NAME" value="mergetwosortedlists.SolutionTest" />
+      <option name="METHOD_NAME" value="mergeTwoLists60" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.mergeTwoLists80" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="merge-two-sorted-lists" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mergetwosortedlists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mergetwosortedlists" />
+      <option name="MAIN_CLASS_NAME" value="mergetwosortedlists.SolutionTest" />
+      <option name="METHOD_NAME" value="mergeTwoLists80" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest.isValid0" />
-        <item itemvalue="JUnit.SolutionTest (2)" />
-        <item itemvalue="JUnit.SolutionTest.convertToTitle10" />
+        <item itemvalue="JUnit.SolutionTest (3)" />
+        <item itemvalue="JUnit.SolutionTest.mergeTwoLists140" />
+        <item itemvalue="JUnit.SolutionTest.mergeTwoLists120" />
+        <item itemvalue="JUnit.SolutionTest.mergeTwoLists80" />
+        <item itemvalue="JUnit.SolutionTest.mergeTwoLists60" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +370,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660675508733</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="20. Valid Parentheses&#10;&#10;O(n) space complexity and O(n) time complexity&#10;&#10;Success&#10;&#10;Runtime: 1 ms, faster than 99.61% of Java online submissions for Valid Parentheses.&#10;Memory Usage: 41.3 MB, less than 85.02% of Java online submissions for Valid Parentheses.">
+      <created>1660826203554</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1660826203554</updated>
+    </task>
+    <task id="LOCAL-00032" summary="21. Merge Two Sorted Lists&#10;&#10;O(1) space complexity and O(len1 + len2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 1 ms, faster than 80.10% of Java online submissions for Merge Two Sorted Lists.&#10;Memory Usage: 41.9 MB, less than 89.93% of Java online submissions for Merge Two Sorted Lists.">
+      <created>1660990224634</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1660990224634</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -387,8 +399,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init" />
-    <MESSAGE value="Success&#10;&#10;Runtime: 4 ms, faster than 98.28% of Java online submissions for Roman to Integer.&#10;Memory Usage: 42.4 MB, less than 96.81% of Java online submissions for Roman to Integer." />
     <MESSAGE value="Success&#10;&#10;Runtime: 1 ms, faster than 99.98% of Java online submissions for Fizz Buzz.&#10;Memory Usage: 43.5 MB, less than 87.91% of Java online submissions for Fizz Buzz." />
     <MESSAGE value="Updated JUnit-Jupiter to 5.9.0" />
     <MESSAGE value="Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Richest Customer Wealth.&#10;Memory Usage: 41.9 MB, less than 90.15% of Java online submissions for Richest Customer Wealth." />
@@ -412,7 +422,9 @@
     <MESSAGE value="74. Search a 2D Matrix&#10;&#10;O(log m + log n)&#10;&#10;Success&#10;&#10;Runtime: 1 ms, faster than 39.44% of Java online submissions for Search a 2D Matrix.&#10;Memory Usage: 42.3 MB, less than 82.03% of Java online submissions for Search a 2D Matrix." />
     <MESSAGE value="74. Search a 2D Matrix&#10;&#10;O(length(number))&#10;&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Excel Sheet Column Title.&#10;Memory Usage: 39.5 MB, less than 94.43% of Java online submissions for Excel Sheet Column Title." />
     <MESSAGE value="268. Missing Number&#10;&#10;O(1) space complexity and O(n) time complexity&#10;&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Missing Number.&#10;Memory Usage: 50.8 MB, less than 75.13% of Java online submissions for Missing Number." />
-    <option name="LAST_COMMIT_MESSAGE" value="268. Missing Number&#10;&#10;O(1) space complexity and O(n) time complexity&#10;&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Missing Number.&#10;Memory Usage: 50.8 MB, less than 75.13% of Java online submissions for Missing Number." />
+    <MESSAGE value="20. Valid Parentheses&#10;&#10;O(n) space complexity and O(n) time complexity&#10;&#10;Success&#10;&#10;Runtime: 1 ms, faster than 99.61% of Java online submissions for Valid Parentheses.&#10;Memory Usage: 41.3 MB, less than 85.02% of Java online submissions for Valid Parentheses." />
+    <MESSAGE value="21. Merge Two Sorted Lists&#10;&#10;O(1) space complexity and O(len1 + len2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 1 ms, faster than 80.10% of Java online submissions for Merge Two Sorted Lists.&#10;Memory Usage: 41.9 MB, less than 89.93% of Java online submissions for Merge Two Sorted Lists." />
+    <option name="LAST_COMMIT_MESSAGE" value="21. Merge Two Sorted Lists&#10;&#10;O(1) space complexity and O(len1 + len2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 1 ms, faster than 80.10% of Java online submissions for Merge Two Sorted Lists.&#10;Memory Usage: 41.9 MB, less than 89.93% of Java online submissions for Merge Two Sorted Lists." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$SolutionTest__1_.ic" NAME="SolutionTest (1) Coverage Results" MODIFIED="1660825842464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -25,6 +25,7 @@
         <module>excel-sheet-column-title</module>
         <module>missing-number</module>
         <module>valid-parentheses</module>
+        <module>merge-two-sorted-lists</module>
     </modules>
 
     <properties>
