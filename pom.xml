@@ -26,6 +26,7 @@
         <module>missing-number</module>
         <module>valid-parentheses</module>
         <module>merge-two-sorted-lists</module>
+        <module>add-two-numbers</module>
     </modules>
 
     <properties>
