@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="21. Merge Two Sorted Lists&#10;&#10;O(1) space complexity and O(len1 + len2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 1 ms, faster than 80.10% of Java online submissions for Merge Two Sorted Lists.&#10;Memory Usage: 41.9 MB, less than 89.93% of Java online submissions for Merge Two Sorted Lists.">
-      <change afterPath="$PROJECT_DIR$/add-two-numbers/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/add-two-numbers/src/main/java/addtwonumbers/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/add-two-numbers/src/test/java/addtwonumbers/SolutionTest.java" afterDir="false" />
+    <list default="true" id="78a1834c-7b03-4161-90b1-23ccb9cf69c3" name="Changes" comment="2. Add Two Numbers&#10;&#10;O(1) space complexity and O(len1 + len2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 3 ms, faster than 80.74% of Java online submissions for Add Two Numbers.&#10;Memory Usage: 47.3 MB, less than 81.31% of Java online submissions for Add Two Numbers.">
+      <change afterPath="$PROJECT_DIR$/sum-of-two-integers/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sum-of-two-integers/src/main/java/sumoftwointegers/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sum-of-two-integers/src/test/java/sumoftwointegers/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -58,14 +58,29 @@
       <recent name="ekosykh.training.romantointeger" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="sumoftwointegers" />
       <recent name="addtwonumbers" />
       <recent name="mergetwosortedlists" />
       <recent name="validparentheses" />
       <recent name="ekosykh.training.missingnumber" />
-      <recent name="ekosykh.training.excelsheetcolumntitle" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sum-of-two-integers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sumoftwointegers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sumoftwointegers" />
+      <option name="MAIN_CLASS_NAME" value="sumoftwointegers.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="add-two-numbers" />
       <extension name="coverage">
@@ -77,22 +92,6 @@
       <option name="PACKAGE_NAME" value="addtwonumbers" />
       <option name="MAIN_CLASS_NAME" value="addtwonumbers.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.addTwoNumbers15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="add-two-numbers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addtwonumbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="addtwonumbers" />
-      <option name="MAIN_CLASS_NAME" value="addtwonumbers.SolutionTest" />
-      <option name="METHOD_NAME" value="addTwoNumbers15" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.SolutionTest.addTwoNumbers30" />
         <item itemvalue="JUnit.SolutionTest.addTwoNumbers16" />
         <item itemvalue="JUnit.SolutionTest.addTwoNumbers20" />
-        <item itemvalue="JUnit.SolutionTest.addTwoNumbers15" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660992379295</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="2. Add Two Numbers&#10;&#10;O(1) space complexity and O(len1 + len2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 3 ms, faster than 80.74% of Java online submissions for Add Two Numbers.&#10;Memory Usage: 47.3 MB, less than 81.31% of Java online submissions for Add Two Numbers.">
+      <created>1661111360282</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1661111360282</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,7 +423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Success&#10;&#10;Runtime: 1 ms, faster than 99.98% of Java online submissions for Fizz Buzz.&#10;Memory Usage: 43.5 MB, less than 87.91% of Java online submissions for Fizz Buzz." />
     <MESSAGE value="Updated JUnit-Jupiter to 5.9.0" />
     <MESSAGE value="Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Richest Customer Wealth.&#10;Memory Usage: 41.9 MB, less than 90.15% of Java online submissions for Richest Customer Wealth." />
     <MESSAGE value="1342. Number of Steps to Reduce a Number to Zero&#10;First Implementation&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Number of Steps to Reduce a Number to Zero.&#10;Memory Usage: 41.1 MB, less than 44.49% of Java online submissions for Number of Steps to Reduce a Number to Zero." />
@@ -442,7 +447,8 @@
     <MESSAGE value="268. Missing Number&#10;&#10;O(1) space complexity and O(n) time complexity&#10;&#10;Success&#10;&#10;Runtime: 0 ms, faster than 100.00% of Java online submissions for Missing Number.&#10;Memory Usage: 50.8 MB, less than 75.13% of Java online submissions for Missing Number." />
     <MESSAGE value="20. Valid Parentheses&#10;&#10;O(n) space complexity and O(n) time complexity&#10;&#10;Success&#10;&#10;Runtime: 1 ms, faster than 99.61% of Java online submissions for Valid Parentheses.&#10;Memory Usage: 41.3 MB, less than 85.02% of Java online submissions for Valid Parentheses." />
     <MESSAGE value="21. Merge Two Sorted Lists&#10;&#10;O(1) space complexity and O(len1 + len2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 1 ms, faster than 80.10% of Java online submissions for Merge Two Sorted Lists.&#10;Memory Usage: 41.9 MB, less than 89.93% of Java online submissions for Merge Two Sorted Lists." />
-    <option name="LAST_COMMIT_MESSAGE" value="21. Merge Two Sorted Lists&#10;&#10;O(1) space complexity and O(len1 + len2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 1 ms, faster than 80.10% of Java online submissions for Merge Two Sorted Lists.&#10;Memory Usage: 41.9 MB, less than 89.93% of Java online submissions for Merge Two Sorted Lists." />
+    <MESSAGE value="2. Add Two Numbers&#10;&#10;O(1) space complexity and O(len1 + len2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 3 ms, faster than 80.74% of Java online submissions for Add Two Numbers.&#10;Memory Usage: 47.3 MB, less than 81.31% of Java online submissions for Add Two Numbers." />
+    <option name="LAST_COMMIT_MESSAGE" value="2. Add Two Numbers&#10;&#10;O(1) space complexity and O(len1 + len2) time complexity&#10;&#10;Success&#10;&#10;Runtime: 3 ms, faster than 80.74% of Java online submissions for Add Two Numbers.&#10;Memory Usage: 47.3 MB, less than 81.31% of Java online submissions for Add Two Numbers." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$SolutionTest__1_.ic" NAME="SolutionTest (1) Coverage Results" MODIFIED="1660825842464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
