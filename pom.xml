@@ -28,6 +28,7 @@
         <module>merge-two-sorted-lists</module>
         <module>add-two-numbers</module>
         <module>sum-of-two-integers</module>
+        <module>power-of-four</module>
     </modules>
 
     <properties>
