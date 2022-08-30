@@ -33,4 +33,9 @@ class SolutionTest {
     void isPowerOfFour3() {
         assertFalse(solution.isPowerOfFour(8));
     }
+
+    @Test
+    void isPowerOfFour4() {
+        assertFalse(solution.isPowerOfFour(0));
+    }
 }

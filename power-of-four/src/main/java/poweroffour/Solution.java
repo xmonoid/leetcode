@@ -16,18 +16,9 @@ public class Solution {
      * @see <a href="https://leetcode.com/problems/power-of-four/">342. Power of Four</a>
      */
     public boolean isPowerOfFour(int n) {
-        // 1    -> 0b0000_0001
-        // 4    -> 0b0000_0100
-        // 16   -> 0b0001_0000
-        // 64   -> 0b0100_0000
-        if (n <= 0) {
-            return false;
-        }
-        for (int x = 1; x > 0; x *= 4) {
-            if ((n ^ x) == 0) {
-                return true;
-            }
-        }
-        return false;
+        return n > 0                        // n should be positive
+                && (n & (n-1)) == 0         // n should contain only one bitwise 1
+                && (n & 0x5555_5555) != 0   // this 1 should be on odd position only
+                ;
     }
 }
