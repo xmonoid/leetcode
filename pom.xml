@@ -29,6 +29,7 @@
         <module>add-two-numbers</module>
         <module>sum-of-two-integers</module>
         <module>power-of-four</module>
+        <module>integer-to-roman</module>
     </modules>
 
     <properties>
